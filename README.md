@@ -30,7 +30,7 @@ and read output (italian, in my case):
 ```bash
 ciao, mondo
 ```
-If your languages is configured, you have related hello string
+If your language's configured, you'll get related "hello" string
 
 Check configured languages in config.js, and add the "accept-language" header key for your language:
 ```javascript
