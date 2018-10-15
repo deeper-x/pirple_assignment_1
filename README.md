@@ -5,16 +5,12 @@ Version: 0.0.1
 Get a "hello, world" string, based on browser accept-language header.
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
 * Node (>=8)
 
-### Run
-
+### Getting Started
 
 Pull and run Node instance
 ```bash
