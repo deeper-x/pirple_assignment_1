@@ -10,7 +10,8 @@ const DEFAULT_MESSAGES = {
 }
 
 const HELLO_DICTIONARY = {
-  "en-GB": "hello, world",
+  "en-GB": "hello, world", //DEFAULT
+  "en-US": "hello, world",
   "it-IT": "ciao, mondo",
   "es-ES": "hola, mundo",
   "ft-FR": "bonjour, monde",
