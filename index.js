@@ -42,7 +42,7 @@ const httpServer = http.createServer((req, res)=>{
             var strPayOutput = DEFAULT_MESSAGES.ERROR;
           }
 
-          let resHandler = new ResHandler(res, "application/json");
+          let resHandler = new ResHandler(res, "text/plain");
           let realStatusCode = resHandler.getStatusCode(statusCode);
 
           // set response data
