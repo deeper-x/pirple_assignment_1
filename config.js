@@ -10,12 +10,12 @@ const DEFAULT_MESSAGES = {
 }
 
 const HELLO_DICTIONARY = {
-  "en-GB": "hello, world", //DEFAULT
-  "en-US": "hello, world",
-  "it-IT": "ciao, mondo",
-  "es-ES": "hola, mundo",
-  "ft-FR": "bonjour, monde",
-  "de-DE": "hallo, welt",
+  "en-gb": "hello, world", //DEFAULT
+  "en-us": "hello, world",
+  "it-it": "ciao, mondo",
+  "es-es": "hola, mundo",
+  "ft-fr": "bonjour, monde",
+  "de-de": "hallo, welt",
 }
 
 const SERVER_PARAMS = {
