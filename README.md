@@ -30,6 +30,10 @@ Now open your browser/curl/http client/whatever and read output:
 ciao, mondo
 ```
 
+### Example
+![alt example-ass-1](https://image.ibb.co/nGjkt0/pirple-ass-1.png)
+
+
 ## Versioning
 
 v 0.0.1
