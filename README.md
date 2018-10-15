@@ -36,7 +36,7 @@ ciao, mondo
 ```
 If your languages is configured, you have related hello string
 
-Check configured languages in config.js, and add the "accept-languages" header key for your language:
+Check configured languages in config.js, and add the "accept-language" header key for your language:
 ```javascript
 const HELLO_DICTIONARY = {
   "en-GB": "hello, world", //DEFAULT
@@ -56,7 +56,7 @@ const HELLO_DICTIONARY = {
 ## Versioning
 
 v 0.0.1
-* hello world string based on your browser language settings
+* calling /hello, a "hello world" string is returned (based on your browser language settings). Error page has static message
 
 
 ## License
