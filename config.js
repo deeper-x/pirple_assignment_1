@@ -9,6 +9,7 @@ const DEFAULT_MESSAGES = {
   "ERROR": "Boo! This is an error"
 }
 
+// feel free to add yours. Pay attention to the case, use lower!
 const HELLO_DICTIONARY = {
   "en-gb": "hello, world", //DEFAULT
   "en-us": "hello, world",
