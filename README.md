@@ -46,7 +46,7 @@ const HELLO_DICTIONARY = {
 
 
 ### Example
-![alt example-ass-1](https://ibb.co/eFaBGL)
+![alt example-ass-1](https://preview.ibb.co/mSg7qf/pirple.png)
 
 
 ## Versioning
