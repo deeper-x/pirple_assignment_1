@@ -35,11 +35,11 @@ If your languages is configured, you have related hello string
 Check configured languages in config.js, and add the "accept-language" header key for your language:
 ```javascript
 const HELLO_DICTIONARY = {
-  "en-GB": "hello, world", //DEFAULT
-  "it-IT": "ciao, mondo",
-  "es-ES": "hola, mundo",
-  "ft-FR": "bonjour, monde",
-  "de-DE": "hallo, welt",
+  "en-gb": "hello, world", //DEFAULT
+  "it-it": "ciao, mondo",
+  "es-es": "hola, mundo",
+  "fr-fr": "bonjour, monde",
+  "de-de": "hallo, welt",
   //ADD YOUR LANGUAGE DATA...
 }
 ```
