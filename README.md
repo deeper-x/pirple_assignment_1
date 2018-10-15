@@ -25,7 +25,12 @@ Server running...
 
 ```
 
-Now open your browser/curl/http client/whatever and read output:
+Now open your browser/curl/http client/whatever on:
+```
+http://127.0.0.1:3000/hello
+```
+
+and read output (italian, in my case):
 ```bash
 ciao, mondo
 ```
