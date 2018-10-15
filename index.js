@@ -46,7 +46,7 @@ const httpServer = http.createServer((req, res)=>{
           let realStatusCode = resHandler.getStatusCode(statusCode);
 
           // set response data
-          resHandler.setStringPayloadRes(strPayOutput);
+          resHandler.stringPayloadRes = strPayOutput;
 
           // Close with the response
           res.setHeader('Content-Type', resHandler.headerContentType);

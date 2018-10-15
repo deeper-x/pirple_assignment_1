@@ -12,8 +12,4 @@ ResHandler.prototype.getStatusCode = function(statusCode){
   return typeof(statusCode) == 'number' ? statusCode : RESPONSE_CODES.RES_OK;
 }
 
-ResHandler.prototype.setStringPayloadRes = function(stringPayload){
-    this.stringPayloadRes = stringPayload;
-}
-
 module.exports = ResHandler;
