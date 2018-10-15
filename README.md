@@ -35,6 +35,18 @@ and read output (italian, in my case):
 ciao, mondo
 ```
 
+Check configured languages in config.js:
+```javascript
+const HELLO_DICTIONARY = {
+  "en-GB": "hello, world",
+  "it-IT": "ciao, mondo",
+  "es-ES": "hola, mundo",
+  "ft-FR": "bonjour, monde",
+  "de-DE": "hallo, welt",
+}
+```
+
+
 ### Example
 ![alt example-ass-1](https://image.ibb.co/nGjkt0/pirple-ass-1.png)
 
