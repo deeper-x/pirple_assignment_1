@@ -15,7 +15,7 @@ const HELLO_DICTIONARY = {
   "en-us": "hello, world",
   "it-it": "ciao, mondo",
   "es-es": "hola, mundo",
-  "ft-fr": "bonjour, monde",
+  "fr-fr": "bonjour, monde",
   "de-de": "hallo, welt",
 }
 
