@@ -1,2 +1,41 @@
-# pirple_assignment_1
-Pirple assignment #1
+# Pirple assigment #1
+
+Version: 0.0.1
+
+Get a "hello, world" string, based on browser accept-language header.
+See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+* Node (>=8)
+
+### Run
+
+
+Pull and run Node instance
+```bash
+$ git clone https://github.com/deeper-x/pirple_assignment_1.git
+$ cd pirple_assignment_1
+$ node index.js
+Server running...
+
+```
+
+Now open your browser/curl/http client/whatever and read output:
+```bash
+ciao, mondo
+```
+
+## Versioning
+
+v 0.0.1
+* hello world string based on your browser language settings
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
