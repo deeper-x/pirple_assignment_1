@@ -53,7 +53,7 @@ const HELLO_DICTIONARY = {
 
 
 ### Example
-![alt example-ass-1](https://preview.ibb.co/mSg7qf/pirple.png)
+![alt example-ass-1](https://image.ibb.co/j3mzML/language-detector.png)
 
 
 ## Versioning
