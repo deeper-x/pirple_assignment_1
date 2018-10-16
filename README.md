@@ -1,6 +1,6 @@
 # Pirple assigment #1
 
-Version: 0.0.2
+Version: 0.0.3
 
 Get a hello string, based on browser accept-language header (RFC-5646)
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
