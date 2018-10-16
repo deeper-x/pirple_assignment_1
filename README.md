@@ -2,7 +2,7 @@
 
 Version: 0.0.2
 
-Get a 'hello, world' string, based on browser accept-language header (RFC 3066)
+Get a 'hello, world' string, based on browser accept-language header (RFC-5646)
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
 
 
