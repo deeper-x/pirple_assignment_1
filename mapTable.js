@@ -17,10 +17,10 @@ handlers.notFound = function(data,callback){
 
 // Define the request router map: every requested resource will be mapped there
 let mapper = {
-  'hello' : handlers.hello,
+  "hello" : handlers.hello,
 };
 
 module.exports = {
   "handlers": handlers,
   "mapper": mapper
-}
+};

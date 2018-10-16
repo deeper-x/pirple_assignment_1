@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const url = require("url");
+const url = require('url');
 
 let ReqHandler = function (request) {
     this.request = request;

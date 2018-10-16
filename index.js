@@ -31,18 +31,19 @@ const httpServer = http.createServer((req, res)=>{
 
         // Route the request to the handler specified in the router
         routedRequest(data,function(statusCode,resPayload){
+          let strPayOutput = '';
 
           if (statusCode == RESPONSE_CODES.RES_OK){
             // get interesting header data about language
             let languageDetector = new LanguageDetector(req.headers);
             // Define the OK string output payload
-            var strPayOutput = languageDetector.getCorrectHello();
+            strPayOutput = languageDetector.getCorrectHello();
           } else {
             //ERROR message, no result payload: show errors
-            var strPayOutput = DEFAULT_MESSAGES.ERROR;
+            strPayOutput = DEFAULT_MESSAGES.ERROR;
           }
 
-          let resHandler = new ResHandler(res, "text/plain");
+          let resHandler = new ResHandler(res, 'text/plain');
           let realStatusCode = resHandler.getStatusCode(statusCode);
 
           // set response data
@@ -58,4 +59,4 @@ const httpServer = http.createServer((req, res)=>{
 
 httpServer.listen(SERVER_PARAMS.PORT, SERVER_PARAMS.HOST, ()=>{
     console.log(SERVER_PARAMS.RUNNING_MSG);
-})
+});

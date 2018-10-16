@@ -2,7 +2,7 @@
 
 Version: 0.0.1
 
-Get a "hello, world" string, based on browser accept-language header.
+Get a 'hello, world' string, based on browser accept-language header.
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
 
 
@@ -30,16 +30,16 @@ and read output (italian, in my case):
 ```bash
 ciao, mondo
 ```
-If your language's configured, you'll get related "hello" string
+If your language's configured, you'll get related 'hello' string
 
-Check configured languages in config.js, and add the "accept-language" header key for your language:
+Check configured languages in config.js, and add the 'accept-language' header key for your language:
 ```javascript
 const HELLO_DICTIONARY = {
-  "en-gb": "hello, world", //DEFAULT
-  "it-it": "ciao, mondo",
-  "es-es": "hola, mundo",
-  "fr-fr": "bonjour, monde",
-  "de-de": "hallo, welt",
+  'en-gb': 'hello, world', //DEFAULT
+  'it-it': 'ciao, mondo',
+  'es-es': 'hola, mundo',
+  'fr-fr': 'bonjour, monde',
+  'de-de': 'hallo, welt',
   //ADD YOUR LANGUAGE DATA...
 }
 ```
@@ -52,7 +52,7 @@ const HELLO_DICTIONARY = {
 ## Versioning
 
 v 0.0.1
-* calling /hello, a "hello world" string is returned (based on your browser language settings). Error page has static message
+* calling /hello, a 'hello world' string is returned (based on your browser language settings). Error page has static message
 
 
 ## License
