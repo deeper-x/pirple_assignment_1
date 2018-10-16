@@ -2,7 +2,7 @@
 
 Version: 0.0.2
 
-Get a 'hello, world' string, based on browser accept-language header (RFC-5646)
+Get a hello string, based on browser accept-language header (RFC-5646)
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
 
 
@@ -28,18 +28,25 @@ http://127.0.0.1:3000/hello
 
 and read output (italian, in my case):
 ```bash
-ciao, mondo
+You speak Italian (Italy), I guess! (it-IT detected)
 ```
 If your language's configured, you'll get related 'hello' string
 
 Check configured languages in config.js, and add the 'accept-language' header key for your language:
 ```javascript
 const HELLO_DICTIONARY = {
-  'en-GB': 'hello, world', //DEFAULT
-  'it-IT': 'ciao, mondo',
-  'es-ES': 'hola, mundo',
-  'fr-FR': 'bonjour, monde',
-  'de-DE': 'hallo, welt',
+  ...
+  'ar-IQ': 'Arabic (Iraq)',
+  'ar-JO': 'Arabic (Jordan)',
+  'ar-KW': 'Arabic (Kuwait)',
+  'ar-LB': 'Arabic (Lebanon)',
+  'ar-LY': 'Arabic (Libya)',
+  'ar-MA': 'Arabic (Morocco)',
+  'ar-OM': 'Arabic (Oman)',
+  'ar-QA': 'Arabic (Qatar)',
+  'ar-SA': 'Arabic (Saudi Arabia)',
+
+  ...
   //ADD YOUR LANGUAGE DATA...
 }
 ```
@@ -50,6 +57,9 @@ const HELLO_DICTIONARY = {
 
 
 ## Versioning
+v 0.0.3
+* now all languages are (should be) already in: hello string should give it yours
+
 v 0.0.2
 * improved language detection, based on RFC-5646 format string (see https://tools.ietf.org/html/rfc5646)
 
