@@ -1,6 +1,6 @@
 # Pirple assigment #1
 
-Version: 0.0.2
+Version: 0.0.3
 
 Get a hello string, based on browser accept-language header (RFC-5646)
 See: [accept-language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
@@ -53,7 +53,7 @@ const HELLO_DICTIONARY = {
 
 
 ### Example
-![alt example-ass-1](https://preview.ibb.co/mSg7qf/pirple.png)
+![alt example-ass-1](https://image.ibb.co/j3mzML/language-detector.png)
 
 
 ## Versioning
