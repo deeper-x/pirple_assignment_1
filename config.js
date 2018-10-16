@@ -10,7 +10,7 @@ const DEFAULT_MESSAGES = {
 };
 
 // feel free to add yours. Check for your language id: 
-// http://www.i18nguy.com/unicode/language-identifiers.html
+// https://gist.github.com/deeper-x/8fa9a40fb0568ecf1d3b36dbb2533d11
 const HELLO_DICTIONARY = {
   "en-GB": "hello, world", //DEFAULT
   "en-US": "hello, world",
