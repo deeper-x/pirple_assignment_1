@@ -51,7 +51,7 @@ const HELLO_DICTIONARY = {
 
 ## Versioning
 v 0.0.2
-* improved language detection, based on RFC-3066 format string (see https://www.ietf.org/rfc/rfc3066.txt)
+* improved language detection, based on RFC-5646 format string (see https://tools.ietf.org/html/rfc5646)
 
 v 0.0.1
 * calling /hello, a 'hello world' string is returned (based on your browser language settings). Error page has static message
